@@ -123,9 +123,11 @@ endmodule
 ### TRUTH TABLE 
 
 4X1 MULTIPLEXER:
+
 ![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/8aa67d0d-a952-43e3-beea-f3bb557f6cf6)
 
-#1X4 DEMULTIPLEXER:
+1X4 DEMULTIPLEXER:
+
 ![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/91677f34-72a8-417c-8523-c4e0e4581413)
 
 
