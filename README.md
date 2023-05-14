@@ -47,8 +47,12 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
-
+1.Start the module using module name.
+2.Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
+3.Use wire to assign intermediate outputs.
+4.Use and,or and not gates to get the desired output. 
+5.End the module.
+6.Generate RTL realization and timing diagrams.
 
 
 ### PROGRAM 
@@ -95,15 +99,22 @@ endmodule
 
 
 ### RTL LOGIC  
+4x1 MULTIPLEXER:
+![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/6f833ee7-371d-48b0-a36d-304bc57d5b89)
 
-
-
+1x4 DEMULTIPLEXER:
+![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/d36b23bf-10b8-4d78-8d97-9983e01cb169)
 
 
 
 
 
 ### TIMING DIGRAMS  
+4X1 MULTIPLEXER:
+![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/aa4f85e1-75fe-4e50-b1b7-0f623021618a)
+
+1X4 DEMULTIPLEXER:
+![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/f9cbc122-2d10-4472-bc55-14e5e6df8229)
 
 
 
@@ -111,9 +122,14 @@ endmodule
 
 ### TRUTH TABLE 
 
+4X1 MULTIPLEXER:
+![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/8aa67d0d-a952-43e3-beea-f3bb557f6cf6)
 
-
+#1X4 DEMULTIPLEXER:
+![image](https://github.com/KSPandian7/Exercise-07-Multiplexer-and-De--multiplexer/assets/113496887/91677f34-72a8-417c-8523-c4e0e4581413)
 
 
 
 ### RESULTS 
+
+Hence 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
